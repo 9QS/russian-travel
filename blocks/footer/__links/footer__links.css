@@ -1,0 +1,30 @@
+@media (min-width: 1280px) {
+    .footer__links {
+        width: 465px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .footer__links {
+        width: 465px;
+        display: flex;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer__links {
+        display: flex;
+        width: 465px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .footer__links {
+        padding: 0;
+    }
+}

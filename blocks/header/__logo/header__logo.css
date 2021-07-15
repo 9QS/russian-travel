@@ -1,0 +1,31 @@
+@media (min-width: 1280px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        background-image: url('../../../images/logo.svg');
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        background-image: url('../../../images/logo.svg');
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        background-image: url('../../../images/logo.svg');
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        background-image: url('../../../images/logo_320px.svg');
+    }
+}

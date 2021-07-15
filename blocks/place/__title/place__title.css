@@ -1,0 +1,37 @@
+.place__title {
+    align-self: flex-end;
+    color: #fff;
+    margin: 0;
+}
+
+@media (min-width: 1280px) {
+    .place__title {
+        width: 460px;
+        font-size: 72px;
+        line-height: 76px;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .place__title {
+        line-height: 76px;
+        font-size: 72px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 340px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+}
