@@ -4,28 +4,15 @@
     font-weight: 900;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
     .intro__title {
+        line-height: 58px;
         font-size: 54px;
         width: 100%;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
-    .intro__title {
-        font-size: 54px;
-        width: 100%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .intro__title {
-        font-size: 54px;
-        width: 100%;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .intro__title {
         font-size: 32px;
         width: 288px;
