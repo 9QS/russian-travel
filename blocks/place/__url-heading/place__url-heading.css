@@ -4,4 +4,6 @@
     font-size: 12px;
     align-self: flex-start;
     margin: 0 0 12px 0;
+    letter-spacing: 2px;
+    font-weight: 900;
 }

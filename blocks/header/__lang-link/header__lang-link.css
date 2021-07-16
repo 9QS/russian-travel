@@ -4,7 +4,15 @@
     font-size: 24px;
     line-height: 28px;
     margin: 0 18px 0 0;
+    opacity: 1;
+    transition: .5s;
+    text-decoration: none;
 }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
 .header__lang-link:nth-of-type(2) {
     margin: 0;
 }

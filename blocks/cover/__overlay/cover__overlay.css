@@ -22,7 +22,6 @@
 
 .cover__overlay:hover::before {
     opacity: 0.8;
-    content: "";
 }
 
 @media (min-width: 1280px) {
@@ -31,19 +30,19 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .cover__overlay {
         min-height: 640px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .cover__overlay {
         min-height: 480px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .cover__overlay {
         min-height: 200px;
     }
