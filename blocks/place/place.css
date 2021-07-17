@@ -1,3 +1,7 @@
+.place {
+    display: grid
+}
+
 @media (min-width: 1280px) {
     .place {
         grid-template-columns: 1fr 484px;
@@ -18,12 +22,6 @@
     }
 }
 
-@media (min-width: 768px) {
-    .place {
-        display: grid;
-    }
-}
-
 @media (min-width: 768px) and (max-width: 1023px) {
     .place {
         grid-template-columns: 1fr 352px;
@@ -35,10 +33,8 @@
 @media (min-width: 320px) and (max-width: 767px) {
     .place {
         margin: 50px 0 0 0;
-        display: grid;
         grid-template-columns: 320px;
         grid-template-rows: 46px 1fr;
-        justify-content: center;
         gap: 32px 16px;
     }
 }

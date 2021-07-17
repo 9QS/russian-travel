@@ -1,4 +1,5 @@
 .place__link {
+    display: block;
     color: #fff;
     transition: .7s;
     opacity: 1;
@@ -8,4 +9,10 @@
 
 .place__link:hover {
     opacity: 0.8;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__link {
+        width: 288px;
+    }
 }

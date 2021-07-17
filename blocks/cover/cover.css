@@ -8,7 +8,7 @@
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
     .cover {
         margin: 92px auto 0;
     }

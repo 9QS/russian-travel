@@ -5,5 +5,12 @@
     align-self: flex-start;
     margin: 0 0 12px 0;
     letter-spacing: 2px;
-    font-weight: 900;
+    font-weight: 400;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__url-heading {
+        width: 288px;
+        align-self: center;
+    }
 }

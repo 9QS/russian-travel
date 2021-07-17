@@ -1,7 +1,24 @@
 .intro__text {
     color: #fff;
-    width: 100%;
     line-height: 163%;
     font-size: 16px;
     margin: 40px 0 0 0;
+}
+
+@media (min-width: 1024px) {
+    .intro__text {
+        max-width: 690px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__text {
+        max-width: 288px;
+    }
 }
